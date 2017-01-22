@@ -1,10 +1,14 @@
 ## Introduction to Chrome DevTools
 
 ###Objectives
-By the end of this lesson, you will be able to:
+In this lesson, we will go over the most important features of Chrome Developer Tools. By the end of this lesson, you will be able to:
+ - Explain what DevTools is and what each tab does
+ - Inspect HTML, CSS and JavaScript
+ - Add break points to DOM elements and JavaScript files
+ - Write snippets
 
-
-
+###Before we begin
+Make sure you have Chrome installed. You should alse be familiar with basics of HTML, CSS and JavaScript and how they work together to create a web page.
 
 ## What is DevTools?
 DevTools is a built in tool for developers in Chrome browser to do debugging and find detailed infomration about the a web application or a web page. It's consisted of multiple tabs and each one focus on a specific aspect of an app. You can explore the HTML/CSS used in the webpage to debug JavaScript and view network perfomance.
@@ -39,8 +43,21 @@ There are three way to open DevTools:
  - Event Listeners
  - Element Properties
 
-Go to <a href="https://google.com" target="blnck">Google</a> and open the elements tab in your DevTools. spend a minute and explore the html elements in the page and try to find the styles applied to them.
+Go to <a href="https://google.com">google.com</a> and open the elements tab in your DevTools. spend a minute and explore the html elements in the page and try to find the styles applied to them.
 
-As you can see, this tab provides a hirarical structure of the DOM. You can play around with the attributes,styles and find out about the size of each element in the page. This is a great way to find issues in the structural layer of your applications. 
+As you can see, this tab provides a hirarical structure of the DOM. You can play around with the attributes,styles and find the size of each element in the page. This is a great way to find issues in the structural layer of your applications. Another important thing you can find in this tab is the EventListeners attached to each element.
+
+## Console tab
+
+Similar to using Elements tab for finding bugs with the layout, we use console tab to figure out JavaScript bugs and errors. You can run JavaScript code in the console as shown here:
+
+![](http://jsforcats.com/images/console-variables.gif)
+( img source: [jsforcats.com](http://jsforcats.com/) )
+
+Also
+Now spend a few minutes and go through [Command Line API Reference](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference) and learn how to use console and interact with DOM. Going back to google.com, can you find the url to the google logo?
+
+###### Add break points to DOM
+###### Add break points to js files
  
-#### DevTools vs firefox 
+#### Other devTools
