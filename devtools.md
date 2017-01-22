@@ -14,9 +14,11 @@ Make sure you have Chrome installed. You should alse be familiar with basics of 
 DevTools is a built in tool for developers in Chrome browser to do debugging and find detailed infomration about the a web application or a web page. It's consisted of multiple tabs and each one focus on a specific aspect of an app. You can explore the HTML/CSS used in the webpage to debug JavaScript and view network perfomance.
  
 There are three way to open DevTools:
+
 1. open your Chrome browser and click on the three bar icon on the right side of your address bar. Go to More Tools -> Developer Tools.
 2. Right click anywhere on the page and select Inspect. This method will open the Elements tab and highlights the selected element on the page.
 3. Use the shorcut : ` cmd + option + j `. This shortcut will always open the console tag. You can use `i` instead of `j` to start from the tab you left off before. 
+
 <p align="center">
   <img src="overview.png" width="800">
 </p>
@@ -60,4 +62,6 @@ Now spend a few minutes and go through [Command Line API Reference](https://deve
 ###### Add break points to DOM
 ###### Add break points to js files
  
+
 #### Other devTools
+
