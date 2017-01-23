@@ -5,7 +5,7 @@ Using Chrome DevTools is a great way to debug front-end files and view performan
 ### What are the objectives?
 In this lesson, we will go over the most important features of Chrome Developer Tools. By the end of this lesson, you will be able to:
  - Explain what DevTools is and what each tab does
- - Inspect HTML, CSS and JavaScript
+ - Inspect HTML, CSS and JavaScript using Console and Element tabs
  - Inspect the network tab and record page load
  - Use console to run JavaScript and debug scripts
 
@@ -77,7 +77,10 @@ document.getElementById('gsri_ok0');
 document.getElementById('gsri_ok0').style.visibility="hidden";
 ```
 </details>
+## Source
+In this tab you can view web page's resources. You can view the javascript files. When you receive an error in console, if you click on the filename on the right hand, it will take you to source tab and highlights where the error happend.
 
+![](https://developers.google.com/web/tools/chrome-devtools/images/sources-panel.png)
 
 ## Network
 
@@ -112,6 +115,21 @@ As you can see Chrome DevTools is a powerful tool for any web developer and know
 - How do you add breakpoints to a JavaScript file? Which tab you use?
 - Explain what the networks tab does and record a page during loading process.
 
+## Individual Exsercise
+  Now it is time for you to try to debug a few errors! First:
+  - clone down this repo `git clone repo-url`
+  - navigate to your local repo ` cd Intro-to-Chrome-DevTools`
+  - go to challenge folder ` cd challenge`
+  - open the index.html file ` open index.html`
+
+As you can see I have lost my cats!! All three of them! and also the elements page doesnt seem to be in the right place.
+  ### Step1: Find my cats!
+  Explore the Elements tab and go through the DOM and their styles to find the three cats. Change the CSS styles to make the cats stick on the page. 
+  
+  Dont forget **not to refresh** the page or you will loose the changes.
+  ### Step2: Name the cats
+   Aren't they cool?! if you click on them you should get an alert message from the cat introducing themselves. If they are not introducing themselves where would you look for possible bugs? There might not be visible error messages in the console but how else you can see script files?
+ 
 ## Resources
 - [Chrome DevTools reference](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
 - [More practise on DevTools](http://discover-devtools.codeschool.com/)
