@@ -1,15 +1,15 @@
 ## Introduction to Chrome DevTools
-#### Why is this important?
+### Why is this important?
 Using Chrome DevTools is a great way to debugg front-end files and view performance and test responsivness of your website.
 
-####What are the objectives?
+### What are the objectives?
 In this lesson, we will go over the most important features of Chrome Developer Tools. By the end of this lesson, you will be able to:
  - Explain what DevTools is and what each tab does
  - Inspect HTML, CSS and JavaScript
  - Add break points to DOM elements and JavaScript files
  - Write snippets
 
-###Where should we be now?
+### Where should we be now?
 Make sure you have Chrome installed. You should alse be familiar with basics of HTML, CSS and JavaScript and how they work together to create a web page.
 
 ## What is DevTools?
