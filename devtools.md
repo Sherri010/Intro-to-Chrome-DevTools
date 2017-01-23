@@ -74,7 +74,7 @@ document.getElementById('gsri_ok0');
 <summary> Now let's make the microphone disappear!
 </summary>
 ```
-document.getElementById('gsri_ok0').style.visibility="hidden";;
+document.getElementById('gsri_ok0').style.visibility="hidden";
 ```
 </details>
 
