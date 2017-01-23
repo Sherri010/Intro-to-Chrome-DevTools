@@ -40,6 +40,7 @@ There are three way to open DevTools:
 9. **Audits**: The Audit panel can analyze a page as it loads.
 
 ## Elements 
+###### Tool for inspecting layout
  In this tab you can inspect:
  - HTML structure of the page
  - CSS styles applied to each element
@@ -52,7 +53,7 @@ Go to <a href="https://google.com">google.com</a> and open the elements tab in y
 As you can see, this tab provides a hierarchical structure of the DOM. You can play around with the attributes,styles and find the size of each element in the page. This is a great way to find issues in the structural layer of your applications. Another important thing you can find in this tab is the event listeners attached to each element.
 
 ## Console 
-
+###### Tool for log information during developemnt and interact with DOM elements 
 Similar to using Elements tab for finding bugs with the layout, we use console tab to figure out JavaScript bugs and errors. You can run JavaScript code in the console as shown here:
 
 ![](http://jsforcats.com/images/console-variables.gif)
@@ -78,11 +79,13 @@ document.getElementById('gsri_ok0').style.visibility="hidden";
 ```
 </details>
 ## Source
+###### Tool for debuging js files and view front-end related source files
 In this tab you can view web page's resources. You can view the javascript files. When you receive an error in console, if you click on the filename on the right hand, it will take you to source tab and highlights where the error happend.
 
 ![](https://developers.google.com/web/tools/chrome-devtools/images/sources-panel.png)
 
 ## Network
+###### Tool to measure performance and loading time for resources
 
 This tab shows anything related to network activities,like the timeline of all the resources( including CSS, JS, img and etc) begin loaded or HTTP requests and responses. One of the coolest things you can do with this tab is to record your page while it's being loaded and identify which resources are available sooner than the other. This will come in handy at optimization.
 
