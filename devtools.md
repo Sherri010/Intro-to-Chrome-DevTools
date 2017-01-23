@@ -39,7 +39,7 @@ There are three way to open DevTools:
 8. **Security**: Confirm whether the page you're viewing is secure
 9. **Audits**: The Audit panel can analyze a page as it loads.
 
-## Elements Tab
+## Elements 
  In this tab you can inspect:
  - HTML structure of the page
  - CSS styles applied to each element
@@ -51,7 +51,7 @@ Go to <a href="https://google.com">google.com</a> and open the elements tab in y
 
 As you can see, this tab provides a hirarical structure of the DOM. You can play around with the attributes,styles and find the size of each element in the page. This is a great way to find issues in the structural layer of your applications. Another important thing you can find in this tab is the EventListeners attached to each element.
 
-## Console tab
+## Console 
 
 Similar to using Elements tab for finding bugs with the layout, we use console tab to figure out JavaScript bugs and errors. You can run JavaScript code in the console as shown here:
 
@@ -79,16 +79,42 @@ document.getElementById('gsri_ok0').style.visibility="hidden";
 </details>
 
 
-###### Add break points to DOM
-###### Add break points to js files
+## Network
+
+This tab shows anything related to network activities,like the timeline of all the resources( including CSS, JS, Img and etc) begin loaded or HTTP requrests and responses. One of the coolest things you can do with this tab is to record you page while it's being loaded and identify which resources are avaibale sooner than the other. This will come in handy at optimization.
+
+![](https://developers.google.com/web/tools/chrome-devtools/images/before-reorder.png)
+( image source:[Goolge DevTools Docs](https://developers.google.com/web/tools/chrome-devtools/settings) )
+
+When DOM is ready, in the timeline section a vertical blue line will appear to show DOM is loaded. You can alo find the the exact timing on the bottom of the page.
+
+![](https://developers.google.com/web/tools/chrome-devtools/network-performance/imgs/domcontentloaded.png)
+( image source:[Goolge DevTools Docs](https://developers.google.com/web/tools/chrome-devtools/settings) )
+
+When inspecting this tab it is important to be familier with  response status codes:
+
+ - 1xx : Informational
+ - 2xx : Successful
+ - 3xx : Redirect
+ - 4xx : Client-error
+ - 5xx : Server-error
+
+check this out : [List of status codes](https://http.cat/)
+
+If one of the resouces faied to load, by checking this tab you can figure our where is problem is. Is it a server side issue? Is it bad request from client? 
+
+
 ## concolusion
 As you can see Chrome DevTools is a powerful tool for any web developer and knowing your way around it can help you pin point issues with your app faster. So make the DevTools your best friend!
 
 - Explain what the Elements tab is and what kind of information it provides?
 - If an event listerner does not responde to clicking,,where is the first place you check?
 - How do you add breakpoints to a JavaScript file? Which tab you use?
-- Explain what the networks tab does? 
+- Explain what the networks tab does and record a page during loading process.
 
 ## Resouces
 - [Chrome DevTools reference](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
 - [More practise on DevTools](http://discover-devtools.codeschool.com/)
+
+###### Add break points to DOM
+###### Add break points to js files
