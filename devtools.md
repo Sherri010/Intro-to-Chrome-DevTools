@@ -57,11 +57,36 @@ Similar to using Elements tab for finding bugs with the layout, we use console t
 ( img source: [jsforcats.com](http://jsforcats.com/) )
 
 Also
-Now spend a few minutes and go through [Command Line API Reference](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference) and learn how to use console and interact with DOM. Going back to google.com, can you find the url to the google logo?
+Now spend a few minutes and go through [Command Line API Reference](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference) and learn how to use console and interact with DOM. 
+
+Going back to google.com, let's open the console and follow along:
+
+<details>
+<summary> Let's select the microphone element in the search field. Can you name selector attached to it?
+</summary>
+```
+document.getElementById('gsri_ok0');
+```
+</details>
+<details>
+<summary> Now let's make the microphone disappear!
+</summary>
+```
+document.getElementById('gsri_ok0').style.visibility="hidden";;
+```
+</details>
+
 
 ###### Add break points to DOM
 ###### Add break points to js files
- 
+## concolusion
+As you can see Chrome DevTools is a powerful tool for any web developer and knowing your way around it can help you pin point issues with your app faster. So make the DevTools your best friend!
 
-#### Other devTools
+- Explain what the Elements tab is and what kind of information it provides?
+- If an event listerner does not responde to clicking,,where is the first place you check?
+- How do you add breakpoints to a JavaScript file? Which tab you use?
+- Explain what the networks tab does? 
 
+## Resouces
+- [Chrome DevTools reference](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)
+- [More practise on DevTools](http://discover-devtools.codeschool.com/)
